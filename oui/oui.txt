@@ -1,0 +1,88 @@
+1ère étape : 
+------------
+[X] - Une application Fastify avec une route de type GET (elle renvoie une information)
+
+///
+
+2ème étape :
+------------
+[X] - La même application avec plusieurs routes (GET => en fonction d'un paramètre de l'URL / POST => En fonction de ce qu'il y a dans le body)
+
+///
+
+3ème étape : (08/09)
+------------
+
+[X] - GIT depot 
+[ ] - POST dans un plugin fastify/
+[X] - Créer une base une base de données grâce à PGadmin
+[ ] - querytool =>  permet d'écrire des requêtes SQL
+
+[ ] - Tables à créer
+* user
+* id
+* nom 
+
+[ ] - Postit
+* Nom
+* Date
+* Contenu
+* Owner (clé étrangère vers User)
+
+///
+
+4ème étape : (12/09)
+------------
+Quatre requêtes pour sélectionner / mettre à jour / supprimer => CRUD
+Via PGadmin / Query Tools
+
+///
+
+5ème étape : (14/09)
+------------
+Refaire un projet qui importe le package node-postgre
+Réaliser les mêmes requêtes mais en code
+
+///
+
+6ème étape : (19/09)
+------------
+Intégrer ses requêtes aux routes Fastify
+Construire une application :
+
+Routes : 
+- POST créé une note avec un nom, un contenu et une date dans une table postgre
+- GET pour récupérer une note par nom
+- POST pour récupérer une note par date avec la date dans le corps
+- PATCH pour modifier une note (avec contenu et nom ou date dans le corps).
+
+/// /// ///
+
+Application fastify/postgresql 
+
+Packages : Fastify / node-postgre (https://node-postgres.com/) / typescript
+
+Routes : 
+- POST créé une note avec un nom, un contenu et une date dans une table postgre
+- GET pour récupérer une note par nom
+- POST pour récupérer une note par date avec la date dans le corps
+- PATCH pour modifier une note (avec contenu et nom ou date dans le corps).
+
+
+STRUCTURE DU PROJET :
+
+src.
+    build *JS*
+        database
+          .
+        routes
+           .
+        server
+            .
+    database
+    routes
+    server
+
+=> Attention à OneDrive
+=> Checking GIT * J'ai ajouté node_modules, à rectifier
+

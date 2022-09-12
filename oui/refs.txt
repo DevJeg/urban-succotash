@@ -1,0 +1,18 @@
+* NODEJS *
+    - DB
+        https://node-postgres.com
+        https://hevodata.com/learn/node-postgres/
+        https://www.atdatabases.org/docs/pg-guide-typescript
+        https://www.atdatabases.org/docs/pg-guide-setup
+
+     - TS
+        https://www.typescriptlang.org/docs/handbook/esm-node.html
+
+     - Fastify
+        https://github.com/fastify/fastify/blob/main/types/utils.d.ts#L8
+        https://www.fastify.io/docs/latest/Reference/TypeScript/#reply
+        https://www.fastify.io/docs/latest/Guides/Getting-Started/
+
+     - JSP
+        https://www.youtube.com/watch?v=OT-JkqdhODU
+
